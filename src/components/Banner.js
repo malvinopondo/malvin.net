@@ -59,9 +59,8 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Malvin`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "Digital Marketer"]'><span className="wrap">{text}</span></span></h1>
                   <p>I am passionate about building excellent software that improves
               the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>
+              for clients ranging from individuals and small-businesses. What would you do if you had
+              a software guru available at your fingertips?</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
